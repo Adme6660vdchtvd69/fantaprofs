@@ -1,7 +1,13 @@
 const characters = [
-    { name: "Warrior", cost: 50 },
-    { name: "Mage", cost: 70 },
-    { name: "Archer", cost: 40 }
+    { name: "La Fiorella", cost: 666 },
+    { name: "Gandolfo", cost: 40 },
+    { name: "Sanguedolce", cost: 65 },
+    { name: "Pipitone", cost: 65 },
+    { name: "Bonafede", cost: 60 },
+    { name: "Figuccia", cost: 30 },
+    { name: "Gerardi", cost: 25 },
+    { name: "Arnone", cost: 60 },
+    { nane: "Indelicato", cost: 40 }
 ];
 
 function startGame() {
