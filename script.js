@@ -19,6 +19,7 @@ function startGame() {
     
     localStorage.setItem("users", JSON.stringify(users));
     document.getElementById("game").style.display = "block";
+    document.getElementById("login").style.display = "none";
     document.getElementById("balance").innerText = users[username].balance;
     
     // Show character selection
