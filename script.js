@@ -7,7 +7,7 @@ const characters = [
 function startGame() {
     let username = document.getElementById("username").value.trim();
     if (!username) {
-        alert("Please enter a username.");
+        alert("Inserisci il tuo Username");
         return;
     }
     
@@ -44,11 +44,11 @@ function buyCharacter(username, index) {
         localStorage.setItem("users", JSON.stringify(users));
         document.getElementById("balance").innerText = user.balance;
     } else {
-        alert("Not enough points!");
+        alert("NON HAI ABBASTANZA PUNTI!");
     }
 }
 
 function submitTurn() {
-    alert("Turn submitted!");
+    alert("SQUADRA CREATA!");
     location.href = "index.html";
 }
